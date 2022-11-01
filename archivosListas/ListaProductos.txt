@@ -1,0 +1,1 @@
+[{"idProducto":1,"nombreProd":"plato","precio":123.0,"cantidad":123,"descripcion":"plato","color":"marron","material":"plato"},{"idProducto":33,"nombreProd":"tenedor","precio":120.0,"cantidad":40,"descripcion":"tenedor tramontina","color":"negro","material":"plastico"}]

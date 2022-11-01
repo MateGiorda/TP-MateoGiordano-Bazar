@@ -1,0 +1,1 @@
+[{"idCliente":4,"idPersona":0,"dni":123123,"cuil":"123123","nombre":"mateo ","direccion":"mitre","email":"mateo","apellido":"giordano"},{"idCliente":1,"idPersona":0,"dni":1323423,"cuil":"213123","nombre":"maxi","direccion":"bolivia","email":"maxi","apellido":"rava"}]
