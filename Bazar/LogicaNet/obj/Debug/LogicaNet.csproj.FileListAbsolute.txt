@@ -1,0 +1,18 @@
+C:\Users\mateo\source\repos\Bazar\LogicaNet\obj\Debug\LogicaNet.csproj.AssemblyReference.cache
+C:\Users\mateo\source\repos\Bazar\LogicaNet\obj\Debug\LogicaNet.csproj.CoreCompileInputs.cache
+C:\Users\mateo\source\repos\Bazar\LogicaNet\bin\Debug\LogicaNet.dll
+C:\Users\mateo\source\repos\Bazar\LogicaNet\bin\Debug\LogicaNet.pdb
+C:\Users\mateo\source\repos\Bazar\LogicaNet\obj\Debug\LogicaNet.dll
+C:\Users\mateo\source\repos\Bazar\LogicaNet\obj\Debug\LogicaNet.pdb
+C:\Users\mateo\source\repos\Bazar\LogicaNet\bin\Debug\Newtonsoft.Json.dll
+C:\Users\mateo\source\repos\Bazar\LogicaNet\bin\Debug\Newtonsoft.Json.xml
+C:\Users\mateo\source\repos\Bazar\LogicaNet\obj\Debug\LogicaNet.csproj.CopyComplete
+C:\Users\Mateo\Desktop\Programacion\Copia codigo Bazar\Bazar\LogicaNet\bin\Debug\LogicaNet.dll
+C:\Users\Mateo\Desktop\Programacion\Copia codigo Bazar\Bazar\LogicaNet\bin\Debug\LogicaNet.pdb
+C:\Users\Mateo\Desktop\Programacion\Copia codigo Bazar\Bazar\LogicaNet\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Mateo\Desktop\Programacion\Copia codigo Bazar\Bazar\LogicaNet\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Mateo\Desktop\Programacion\Copia codigo Bazar\Bazar\LogicaNet\obj\Debug\LogicaNet.csproj.AssemblyReference.cache
+C:\Users\Mateo\Desktop\Programacion\Copia codigo Bazar\Bazar\LogicaNet\obj\Debug\LogicaNet.csproj.CoreCompileInputs.cache
+C:\Users\Mateo\Desktop\Programacion\Copia codigo Bazar\Bazar\LogicaNet\obj\Debug\LogicaNet.csproj.CopyComplete
+C:\Users\Mateo\Desktop\Programacion\Copia codigo Bazar\Bazar\LogicaNet\obj\Debug\LogicaNet.dll
+C:\Users\Mateo\Desktop\Programacion\Copia codigo Bazar\Bazar\LogicaNet\obj\Debug\LogicaNet.pdb

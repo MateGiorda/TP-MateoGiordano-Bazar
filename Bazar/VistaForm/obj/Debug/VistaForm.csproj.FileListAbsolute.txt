@@ -1,0 +1,60 @@
+C:\Users\mateo\source\repos\Bazar\VistaForm\bin\Debug\VistaForm.exe.config
+C:\Users\mateo\source\repos\Bazar\VistaForm\bin\Debug\VistaForm.exe
+C:\Users\mateo\source\repos\Bazar\VistaForm\bin\Debug\VistaForm.pdb
+C:\Users\mateo\source\repos\Bazar\VistaForm\bin\Debug\Newtonsoft.Json.dll
+C:\Users\mateo\source\repos\Bazar\VistaForm\bin\Debug\Newtonsoft.Json.xml
+C:\Users\mateo\source\repos\Bazar\VistaForm\obj\Debug\VistaForm.csproj.AssemblyReference.cache
+C:\Users\mateo\source\repos\Bazar\VistaForm\obj\Debug\VistaForm.csproj.SuggestedBindingRedirects.cache
+C:\Users\mateo\source\repos\Bazar\VistaForm\obj\Debug\VistaForm.Carga.resources
+C:\Users\mateo\source\repos\Bazar\VistaForm\obj\Debug\VistaForm.Loguin.resources
+C:\Users\mateo\source\repos\Bazar\VistaForm\obj\Debug\VistaForm.Properties.Resources.resources
+C:\Users\mateo\source\repos\Bazar\VistaForm\obj\Debug\VistaForm.csproj.GenerateResource.cache
+C:\Users\mateo\source\repos\Bazar\VistaForm\obj\Debug\VistaForm.csproj.CoreCompileInputs.cache
+C:\Users\mateo\source\repos\Bazar\VistaForm\obj\Debug\VistaForm.csproj.CopyComplete
+C:\Users\mateo\source\repos\Bazar\VistaForm\obj\Debug\VistaForm.exe
+C:\Users\mateo\source\repos\Bazar\VistaForm\obj\Debug\VistaForm.pdb
+C:\Users\mateo\source\repos\Bazar\VistaForm\bin\Debug\LogicaNet.dll
+C:\Users\mateo\source\repos\Bazar\VistaForm\bin\Debug\LogicaNet.pdb
+C:\Users\Mateo\Desktop\Programacion\Copia codigo Bazar\Bazar\VistaForm\obj\Debug\VistaForm.csproj.AssemblyReference.cache
+C:\Users\Mateo\Desktop\Programacion\Copia codigo Bazar\Bazar\VistaForm\obj\Debug\VistaForm.csproj.SuggestedBindingRedirects.cache
+C:\Users\Mateo\Desktop\Programacion\Copia codigo Bazar\Bazar\VistaForm\obj\Debug\VistaForm.Carga.resources
+C:\Users\Mateo\Desktop\Programacion\Copia codigo Bazar\Bazar\VistaForm\obj\Debug\VistaForm.Loguin.resources
+C:\Users\Mateo\Desktop\Programacion\Copia codigo Bazar\Bazar\VistaForm\obj\Debug\FormularioParaBazar.PanPrincipal.resources
+C:\Users\Mateo\Desktop\Programacion\Copia codigo Bazar\Bazar\VistaForm\obj\Debug\VistaForm.Properties.Resources.resources
+C:\Users\Mateo\Desktop\Programacion\Copia codigo Bazar\Bazar\VistaForm\obj\Debug\VistaForm.csproj.GenerateResource.cache
+C:\Users\Mateo\Desktop\Programacion\Copia codigo Bazar\Bazar\VistaForm\obj\Debug\VistaForm.csproj.CoreCompileInputs.cache
+C:\Users\Mateo\Desktop\Programacion\Copia codigo Bazar\Bazar\VistaForm\obj\Debug\VistaForm.pdb
+C:\Users\Mateo\Desktop\Programacion\Copia codigo Bazar\Bazar\VistaForm\bin\Debug\VistaForm.exe.config
+C:\Users\Mateo\Desktop\Programacion\Copia codigo Bazar\Bazar\VistaForm\bin\Debug\VistaForm.exe
+C:\Users\Mateo\Desktop\Programacion\Copia codigo Bazar\Bazar\VistaForm\bin\Debug\VistaForm.pdb
+C:\Users\Mateo\Desktop\Programacion\Copia codigo Bazar\Bazar\VistaForm\bin\Debug\LogicaNet.dll
+C:\Users\Mateo\Desktop\Programacion\Copia codigo Bazar\Bazar\VistaForm\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Mateo\Desktop\Programacion\Copia codigo Bazar\Bazar\VistaForm\bin\Debug\LogicaNet.pdb
+C:\Users\Mateo\Desktop\Programacion\Copia codigo Bazar\Bazar\VistaForm\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Mateo\Desktop\Programacion\Copia codigo Bazar\Bazar\VistaForm\obj\Debug\FormularioParaBazar.Productos.resources
+C:\Users\Mateo\Desktop\Programacion\Copia codigo Bazar\Bazar\VistaForm\obj\Debug\VistaForm.csproj.CopyComplete
+C:\Users\Mateo\Desktop\Programacion\Copia codigo Bazar\Bazar\VistaForm\obj\Debug\VistaForm.exe
+C:\Users\Mateo\Desktop\Programacion\Copia codigo Bazar\Bazar\VistaForm\obj\Debug\VistaForm.Cliente.resources
+C:\Users\Mateo\Desktop\Programacion\Copia codigo Bazar\Bazar\VistaForm\obj\Debug\VistaForm.Empleados.resources
+C:\Users\Mateo\Documents\tp-mateogiordano-bazar\ElBazar\Bazar\VistaForm\bin\Debug\VistaForm.exe.config
+C:\Users\Mateo\Documents\tp-mateogiordano-bazar\ElBazar\Bazar\VistaForm\bin\Debug\VistaForm.exe
+C:\Users\Mateo\Documents\tp-mateogiordano-bazar\ElBazar\Bazar\VistaForm\bin\Debug\VistaForm.pdb
+C:\Users\Mateo\Documents\tp-mateogiordano-bazar\ElBazar\Bazar\VistaForm\bin\Debug\LogicaNet.dll
+C:\Users\Mateo\Documents\tp-mateogiordano-bazar\ElBazar\Bazar\VistaForm\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Mateo\Documents\tp-mateogiordano-bazar\ElBazar\Bazar\VistaForm\bin\Debug\LogicaNet.pdb
+C:\Users\Mateo\Documents\tp-mateogiordano-bazar\ElBazar\Bazar\VistaForm\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Mateo\Documents\tp-mateogiordano-bazar\ElBazar\Bazar\VistaForm\obj\Debug\VistaForm.csproj.AssemblyReference.cache
+C:\Users\Mateo\Documents\tp-mateogiordano-bazar\ElBazar\Bazar\VistaForm\obj\Debug\VistaForm.csproj.SuggestedBindingRedirects.cache
+C:\Users\Mateo\Documents\tp-mateogiordano-bazar\ElBazar\Bazar\VistaForm\obj\Debug\VistaForm.Carga.resources
+C:\Users\Mateo\Documents\tp-mateogiordano-bazar\ElBazar\Bazar\VistaForm\obj\Debug\VistaForm.PanCliente.resources
+C:\Users\Mateo\Documents\tp-mateogiordano-bazar\ElBazar\Bazar\VistaForm\obj\Debug\VistaForm.PanEmpleados.resources
+C:\Users\Mateo\Documents\tp-mateogiordano-bazar\ElBazar\Bazar\VistaForm\obj\Debug\VistaForm.Loguin.resources
+C:\Users\Mateo\Documents\tp-mateogiordano-bazar\ElBazar\Bazar\VistaForm\obj\Debug\FormularioParaBazar.PanPrincipal.resources
+C:\Users\Mateo\Documents\tp-mateogiordano-bazar\ElBazar\Bazar\VistaForm\obj\Debug\FormularioParaBazar.PanProductos.resources
+C:\Users\Mateo\Documents\tp-mateogiordano-bazar\ElBazar\Bazar\VistaForm\obj\Debug\VistaForm.Properties.Resources.resources
+C:\Users\Mateo\Documents\tp-mateogiordano-bazar\ElBazar\Bazar\VistaForm\obj\Debug\VistaForm.csproj.GenerateResource.cache
+C:\Users\Mateo\Documents\tp-mateogiordano-bazar\ElBazar\Bazar\VistaForm\obj\Debug\VistaForm.csproj.CoreCompileInputs.cache
+C:\Users\Mateo\Documents\tp-mateogiordano-bazar\ElBazar\Bazar\VistaForm\obj\Debug\VistaForm.csproj.CopyComplete
+C:\Users\Mateo\Documents\tp-mateogiordano-bazar\ElBazar\Bazar\VistaForm\obj\Debug\VistaForm.exe
+C:\Users\Mateo\Documents\tp-mateogiordano-bazar\ElBazar\Bazar\VistaForm\obj\Debug\VistaForm.pdb
+C:\Users\Mateo\Documents\tp-mateogiordano-bazar\ElBazar\Bazar\VistaForm\obj\Debug\VistaForm.PanProveedor.resources

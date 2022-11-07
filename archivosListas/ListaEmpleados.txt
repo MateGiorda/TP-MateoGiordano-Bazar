@@ -1,1 +1,1 @@
-[{"idEmpleado":1,"sueldo":12000,"idPersona":0,"dni":44306020,"cuil":"44306020","nombre":"Mateo","direccion":"Mitre","email":"Mateo","apellido":"Giordano"}]
+[]

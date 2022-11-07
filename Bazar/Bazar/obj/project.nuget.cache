@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "fVe8NKctukCTAAvXAzTb1Sxnp5xYxkmEkd6rhJVYB7hG8T9iZ1DCGwg5e9AdkkCmf4cVZCkGL/HejhcXa0DqHg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Mateo\\Documents\\tp-mateogiordano-bazar\\ElBazar\\Bazar\\Bazar\\Consola.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Mateo\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

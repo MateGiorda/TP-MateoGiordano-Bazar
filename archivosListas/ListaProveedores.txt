@@ -1,1 +1,1 @@
-[{"idProveedor":1,"idPersona":0,"dni":44306012,"cuil":"23948230847","nombre":"Macsi","direccion":"vive en bolivia","email":"maxipitochico","apellido":"Ravasonic"}]
+[]
