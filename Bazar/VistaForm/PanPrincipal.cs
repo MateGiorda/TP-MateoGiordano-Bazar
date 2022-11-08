@@ -19,21 +19,24 @@ namespace FormularioParaBazar
             InitializeComponent();
         }
 
+        //Boton de las tres lines que parece el menu
         private void btnslide_Click(object sender, EventArgs e)
         {
             if (MenuVertical.Width == 250)
             {
-                MenuVertical.Width = 70;
+                MenuVertical.Width = 1;
             }
             else
                 MenuVertical.Width = 250;
         }
 
+        //Boton para cerrar arriba a la derecha 
         private void iconcerrar_Click(object sender, EventArgs e)
         {
             Application.Exit();
         }
 
+        //Boton para maximizar 
         private void iconmaximizar_Click(object sender, EventArgs e)
         {
             this.WindowState = FormWindowState.Maximized;
@@ -41,6 +44,7 @@ namespace FormularioParaBazar
             iconmaximizar.Visible = false;
         }
 
+        //Boton para restaurar una vez que se maximiza 
         private void iconrestaurar_Click(object sender, EventArgs e)
         {
             this.WindowState = FormWindowState.Normal;
@@ -48,75 +52,47 @@ namespace FormularioParaBazar
             iconmaximizar.Visible = true;
         }
 
+        //Boton para minimizar
         private void iconminimizar_Click(object sender, EventArgs e)
         {
             this.WindowState = FormWindowState.Minimized;
         }
 
-        /*private void AbrirFormEnPanel(object Formhijo)
-        {
-            if (this.panelContenedor.Controls.Count > 0)
-                this.panelContenedor.Controls.RemoveAt(0);
-            Form fh = Formhijo as Form;
-            fh.TopLevel = false;
-            fh.Dock = DockStyle.Fill;
-            this.panelContenedor.Controls.Add(fh);
-            this.panelContenedor.Tag = fh;
-            fh.Show();
-        } */
-
-        private void AbrirFormulario<MiForm>() where MiForm : Form, new()
-        {
-            Form formulario;
-            formulario = panelContenedor.Controls.OfType<MiForm>().FirstOrDefault();
-            if (formulario == null)
-            {
-                formulario = new MiForm();
-                formulario.TopLevel = false;
-                formulario.FormBorderStyle = FormBorderStyle.None;
-                formulario.Dock = DockStyle.Fill;
-                panelContenedor.Controls.Add(formulario);
-                panelContenedor.Tag = formulario;
-                formulario.Show();
-                formulario.BringToFront();
-            }
-            //si el formulario/instancia existe
-            else
-            {
-                formulario.BringToFront();
-            }
-        }
-
+        //Boton de productos de la derecha
         private void btnprod_Click(object sender, EventArgs e)
         {
-            //AbrirFormEnPanel(new PanProductos());
-            AbrirFormulario<PanProductos>();
+            this.Hide();
+            PanProductos frmproductos = new PanProductos();
+            frmproductos.ShowDialog();
         }
 
         private void panelContenedor_Paint(object sender, PaintEventArgs e)
         {
-
+             
         }
 
+        //Boton de clientes de la derecha
         private void button2_Click(object sender, EventArgs e)
         {
-            //PanCliente frm = new PanCliente();
-            //frm.ShowDialog();
-            AbrirFormulario<PanCliente>();
+            this.Hide();
+            PanCliente frmclientes = new PanCliente();
+            frmclientes.ShowDialog();
         }
 
+        //Boton de empleados de la derecha
         private void btnEmpleados_Click(object sender, EventArgs e)
         {
-            //PanEmpleados frm2 = new PanEmpleados();
-            //frm2.ShowDialog();
-            AbrirFormulario<PanEmpleados>();
+            this.Hide();
+            PanEmpleados frmempleados = new PanEmpleados();
+            frmempleados.ShowDialog();
         }
 
+        //Boton de proveedores de la derecha
         private void btnProvedor_Click(object sender, EventArgs e)
         {
-            //PanProveedor frm3 = new PanProveedor();
-            //frm3.ShowDialog();
-            AbrirFormulario<PanProveedor>();
+            this.Hide();
+            PanProveedor frmproveedor = new PanProveedor();
+            frmproveedor.ShowDialog();
         }
     }
 }

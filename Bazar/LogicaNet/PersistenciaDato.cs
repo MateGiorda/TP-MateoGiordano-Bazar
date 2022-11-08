@@ -10,11 +10,11 @@ namespace LogicaNet
 {
     public class PersistenciaDato
     {
-        //Rutas para notebook 
-        /*readonly string RutaListaClientes = @"C:\Users\mateo\source\repos\ElBazar\archivosListas\ListaClientes.txt";
-        readonly string RutaListaProveedor = @"C:\Users\mateo\source\repos\ElBazar\archivosListas\ListaProveedores.txt";
-        readonly string RutaListaProductos = @"C:\Users\mateo\source\repos\ElBazar\archivosListas\ListaProductos.txt";
-        readonly string RutaListaEmpleados = @"C:\Users\mateo\source\repos\ElBazar\archivosListas\ListaEmpleados.txt";
+        /*//Rutas para notebook 
+        readonly string RutaListaClientes = @"C:\Users\mateo\OneDrive\Documentos\tp-mateogiordano-bazar\ElBazar\archivosListas\ListaClientes.txt";
+        readonly string RutaListaProveedor = @"C:\Users\mateo\OneDrive\Documentos\tp-mateogiordano-bazar\ElBazar\archivosListas\ListaProveedores.txt";
+        readonly string RutaListaProductos = @"C:\Users\mateo\OneDrive\Documentos\tp-mateogiordano-bazar\ElBazar\archivosListas\ListaProductos.txt";
+        readonly string RutaListaEmpleados = @"C:\Users\mateo\OneDrive\Documentos\tp-mateogiordano-bazar\ElBazar\archivosListas\ListaEmpleados.txt";
         */
 
         //Ruta para PC escritorio

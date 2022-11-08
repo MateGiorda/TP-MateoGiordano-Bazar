@@ -14,11 +14,14 @@ namespace LogicaNet
         List<Producto> ListaProductos = new List<Producto>();
         List<Empleado> ListaEmpleados = new List<Empleado>();
 
+        PersistenciaDato persistencia = new PersistenciaDato();
         //Metodos
 
         //Alta cliente
         public void AltaCliente(Cliente clienteNuevo, int idcliente)
         {
+            ListaClientes = ValidarCliente();
+
             Cliente nuevoCliente = new Cliente();
             nuevoCliente.dni = clienteNuevo.dni;
             nuevoCliente.cuil = clienteNuevo.cuil;
@@ -27,14 +30,18 @@ namespace LogicaNet
             nuevoCliente.direccion = clienteNuevo.direccion;
             nuevoCliente.email = clienteNuevo.email;
             nuevoCliente.idCliente = idcliente;
+
             ListaClientes.Add(nuevoCliente);
             InstanciaPersistenciaDatos.GuardarArchivoCliente(ListaClientes);
         }
 
+        
         //Alta proveedor  
 
         public void AltaProveedor(Proveedor proveedorNuevo, int idproveedor)
         {
+            ListaProveedor = ValidarProveedor();
+
             Proveedor nuevoProveedor = new Proveedor();
             nuevoProveedor.dni = proveedorNuevo.dni;
             nuevoProveedor.cuil = proveedorNuevo.cuil;
@@ -43,6 +50,7 @@ namespace LogicaNet
             nuevoProveedor.direccion = proveedorNuevo.direccion;
             nuevoProveedor.email = proveedorNuevo.email;
             nuevoProveedor.idProveedor = idproveedor;
+
             ListaProveedor.Add(nuevoProveedor);
             InstanciaPersistenciaDatos.GuardarArchivoProveedor(ListaProveedor);
         }
@@ -50,6 +58,8 @@ namespace LogicaNet
         //Alta producto        
         public void AltaProducto(Producto productoNuevo, int idproducto)
         {
+            ListaProductos = ValidarProducto();
+
             Producto nuevoProducto = new Producto();
             nuevoProducto.precio = productoNuevo.precio;
             nuevoProducto.nombreProd = productoNuevo.nombreProd;
@@ -58,6 +68,7 @@ namespace LogicaNet
             nuevoProducto.color = productoNuevo.color;
             nuevoProducto.material = productoNuevo.material;
             nuevoProducto.idProducto = idproducto;
+
             ListaProductos.Add(nuevoProducto);
             InstanciaPersistenciaDatos.GuardarArchivoProducto(ListaProductos);
         }
@@ -65,6 +76,8 @@ namespace LogicaNet
         //Alta empleado       
         public void AltaEmpleado(Empleado empleadoNuevo, int idempleado)
         {
+            ListaEmpleados = ValidarEmpleado();
+
             Empleado nuevoEmpleado = new Empleado();
             nuevoEmpleado.dni = empleadoNuevo.dni;
             nuevoEmpleado.cuil = empleadoNuevo.cuil;
@@ -74,6 +87,7 @@ namespace LogicaNet
             nuevoEmpleado.email = empleadoNuevo.email;
             nuevoEmpleado.sueldo = empleadoNuevo.sueldo;
             nuevoEmpleado.idEmpleado = idempleado;
+
             ListaEmpleados.Add(nuevoEmpleado);
             InstanciaPersistenciaDatos.GuardarArchivoEmpleados(ListaEmpleados);
         }
@@ -81,6 +95,7 @@ namespace LogicaNet
         //Baja cliente
         public void BajaCliente(int idCliente)
         {
+            ListaClientes = ValidarCliente();
             var clienteEliminado = ListaClientes.Find(x => idCliente == x.idCliente);
             ListaClientes.Remove(clienteEliminado);
             InstanciaPersistenciaDatos.GuardarArchivoCliente(ListaClientes);
@@ -89,6 +104,7 @@ namespace LogicaNet
         //Baja proveedor
         public void BajaProveedor(int idProveedor)
         {
+            ListaProveedor = ValidarProveedor();
             var proveedorEliminado = ListaProveedor.Find(x => idProveedor == x.idProveedor);
             ListaProveedor.Remove(proveedorEliminado);
             InstanciaPersistenciaDatos.GuardarArchivoProveedor(ListaProveedor);
@@ -97,6 +113,7 @@ namespace LogicaNet
         //Baja producto
         public void BajaProducto(int idProducto)
         {
+            ListaProductos = ValidarProducto();
             var productoEliminado = ListaProductos.Find(x => idProducto == x.idProducto);
             ListaProductos.Remove(productoEliminado);
             InstanciaPersistenciaDatos.GuardarArchivoProducto(ListaProductos);
@@ -105,6 +122,7 @@ namespace LogicaNet
         //Baja empleado 
         public void BajaEmpleado(int idEmpleado)
         {
+            ListaEmpleados = ValidarEmpleado();
             var empleadoEliminado = ListaEmpleados.Find(x => idEmpleado == x.idEmpleado);
             ListaEmpleados.Remove(empleadoEliminado);
             InstanciaPersistenciaDatos.GuardarArchivoEmpleados(ListaEmpleados);
@@ -201,70 +219,210 @@ namespace LogicaNet
             ListaEmpleados = InstanciaPersistenciaDatos.LeerArchivoEmpleado();
         }
 
+        //Validacion cliente
         public List<Cliente> ValidarCliente()
         {
             ListaClientes = InstanciaPersistenciaDatos.LeerArchivoCliente();
             if (ListaClientes == null)
             {
-                List<Cliente> NuevaListaCliente = new List<Cliente>();
-                return NuevaListaCliente;
+                ListaClientes = new List<Cliente>();
             }
-            else
-            {
-                return ListaClientes;
-            }
+
+            return ListaClientes;
+
         }
 
-        public List<Cliente> BuscarClientePorDNI(int dni)
+        //Validacion producto
+        public List<Producto> ValidarProducto()
         {
-            if (ListaClientes == null)
+            ListaProductos = InstanciaPersistenciaDatos.LeerArchivoProducto();
+            if (ListaProductos == null)
             {
-                List<Cliente> NuevaListaCliente = new List<Cliente>();
-                return NuevaListaCliente;
+                ListaProductos = new List<Producto>();
             }
-            else
-            {
-                var clienteObtenido = ListaClientes.Find(x => dni == x.dni);
-                List<Cliente> NuevaListaCliente = new List<Cliente>();
-                NuevaListaCliente.Add(clienteObtenido);
-                return NuevaListaCliente;
-            }
+
+            return ListaProductos;
+
         }
 
-        //Buscar por nombre cunado lo veamos en clases
-
-        public List<Proveedor> BuscarProveedorPorDNI(int dni)
+        //Validacion proveedor
+        public List<Proveedor> ValidarProveedor()
         {
+            ListaProveedor = InstanciaPersistenciaDatos.LeerArchivoProveedor();
             if (ListaProveedor == null)
             {
-                List<Proveedor> NuevaListaProveedor = new List<Proveedor>();
+                ListaProveedor = new List<Proveedor>();
+            }
+
+            return ListaProveedor;
+
+        }
+
+        //Validacion empleado
+        public List<Empleado> ValidarEmpleado()
+        {
+            ListaEmpleados = InstanciaPersistenciaDatos.LeerArchivoEmpleado();
+            if (ListaEmpleados == null)
+            {
+                ListaEmpleados = new List<Empleado>();
+            }
+
+            return ListaEmpleados;
+
+        }
+
+        //Busqueda
+
+        // Proveedor por ID
+
+        public List<Proveedor> BuscarProveedorPorID(int idproveedor)
+        {
+            ListaProveedor = ValidarProveedor();
+            List<Proveedor> NuevaListaProveedor = new List<Proveedor>();
+
+            if (ListaProveedor == null)
+            {
                 return NuevaListaProveedor;
             }
             else
             {
-                var ProveedorObtenido = ListaProveedor.Find(x => dni == x.dni);
-                List<Proveedor> NuevaListaProveedor = new List<Proveedor>();
+                var ProveedorObtenido = ListaProveedor.Find(x => idproveedor == x.idProveedor);
                 NuevaListaProveedor.Add(ProveedorObtenido);
                 return NuevaListaProveedor;
             }
         }
 
-        public List<Empleado> BuscarEmpleadoPorDNI(int dni)
+        //Empleado por ID
+        public List<Empleado> BuscarEmpleadoPorID(int idempleado)
         {
+            ListaEmpleados = ValidarEmpleado();
+            List<Empleado> NuevaListaEmpleado = new List<Empleado>();
+
             if (ListaEmpleados == null)
             {
-                List<Empleado> NuevaListaEmpleado = new List<Empleado>();
                 return NuevaListaEmpleado;
             }
             else
             {
-                var EmpleadoObtenido = ListaEmpleados.Find(x => dni == x.dni);
-                List<Empleado> NuevaListaEmpleado = new List<Empleado>();
+                var EmpleadoObtenido = ListaEmpleados.Find(x => idempleado == x.idEmpleado);
                 NuevaListaEmpleado.Add(EmpleadoObtenido);
                 return NuevaListaEmpleado;
             }
         }
 
-        //hacer para cada parametro 
+        // Cliente por ID
+
+        public List<Cliente> BuscarClientePorID(int idcliente)
+        {
+            ListaClientes = ValidarCliente();
+            List<Cliente> NuevaListaCliente = new List<Cliente>();
+
+            if (ListaClientes == null)
+            {
+                return NuevaListaCliente;
+            }
+            else
+            {
+                var ClienteObtenido = ListaClientes.Find(x => idcliente == x.idCliente);
+                NuevaListaCliente.Add(ClienteObtenido);
+                return NuevaListaCliente;
+            }
+        }
+
+        // producto por ID
+
+        public List<Producto> BuscarProductoPorID(int idproducto)
+        {
+            ListaProductos = ValidarProducto();
+            List<Producto> NuevaListaProducto = new List<Producto>();
+
+            if (ListaProductos == null)
+            {
+                return NuevaListaProducto;
+            }
+            else
+            {
+                var ProductoObtenido = ListaProductos.Find(x => idproducto == x.idProducto);
+                NuevaListaProducto.Add(ProductoObtenido);
+                return NuevaListaProducto;
+            }
+        }
+
+        //Busqueda por Nombre
+
+        // Proveedor por Nombre
+
+        public List<Proveedor> BuscarProveedorPorDNI(string nombreproveedor)
+        {
+            ListaProveedor = ValidarProveedor();
+            List<Proveedor> NuevaListaProveedor = new List<Proveedor>();
+
+            if (ListaProveedor == null)
+            {
+                return NuevaListaProveedor;
+            }
+            else
+            {
+                var ProveedorObtenido = ListaProveedor.Find(x => nombreproveedor == x.nombre);
+                NuevaListaProveedor.Add(ProveedorObtenido);
+                return NuevaListaProveedor;
+            }
+        }
+
+        //Empleado por Nombre
+        public List<Empleado> BuscarEmpleadoPorDNI(string nombreempleado)
+        {
+            ListaEmpleados = ValidarEmpleado();
+            List<Empleado> NuevaListaEmpleado = new List<Empleado>();
+
+            if (ListaEmpleados == null)
+            {
+                return NuevaListaEmpleado;
+            }
+            else
+            {
+                var EmpleadoObtenido = ListaEmpleados.Find(x => nombreempleado == x.nombre);
+                NuevaListaEmpleado.Add(EmpleadoObtenido);
+                return NuevaListaEmpleado;
+            }
+        }
+
+        // Cliente por Nombre
+
+        public List<Cliente> BuscarClientePorDNI(string nombrecliente)
+        {
+            ListaClientes = ValidarCliente();
+            List<Cliente> NuevaListaCliente = new List<Cliente>();
+
+            if (ListaClientes == null)
+            {
+                return NuevaListaCliente;
+            }
+            else
+            {
+                var ClienteObtenido = ListaClientes.Find(x => nombrecliente == x.nombre);
+                NuevaListaCliente.Add(ClienteObtenido);
+                return NuevaListaCliente;
+            }
+        }
+
+        // producto por Nombre
+
+        public List<Producto> BuscarProductoPorNombre(string nombreprod)
+        {
+            ListaProductos = ValidarProducto();
+            List<Producto> NuevaListaProducto = new List<Producto>();
+
+            if (ListaProductos == null)
+            {
+                return NuevaListaProducto;
+            }
+            else
+            {
+                var ProductoObtenido = ListaProductos.Find(x => nombreprod == x.nombreProd);
+                NuevaListaProducto.Add(ProductoObtenido);
+                return NuevaListaProducto;
+            }
+        }
     }
 }

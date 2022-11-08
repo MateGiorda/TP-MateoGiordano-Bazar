@@ -11,7 +11,7 @@ namespace LogicaNet
         //atributos
         public int idPersona { get; set; }
         public int dni { get; set; }
-        public int cuil { get; set; }
+        public string cuil { get; set; }
         public string nombre { get; set; }
         public string direccion { get; set; }
         public string email { get; set; }

@@ -1,1 +1,1 @@
-[]
+[{"idEmpleado":1,"sueldo":123123,"idPersona":0,"dni":123123,"cuil":"123123","nombre":"Mario","direccion":"Ni idea","email":"EmpleadoDelMes@gmail.com","apellido":"Cacho"},{"idEmpleado":2,"sueldo":12000,"idPersona":0,"dni":445667565,"cuil":"13123","nombre":"Karim","direccion":"Madrid","email":"BallonDeOro@gmail.com","apellido":"Benzama"},{"idEmpleado":3,"sueldo":12000,"idPersona":0,"dni":123123123,"cuil":"12312","nombre":"Tomas","direccion":"Su casa","email":"Fly123@gmail.com","apellido":"Franchino "}]

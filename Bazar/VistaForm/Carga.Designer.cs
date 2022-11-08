@@ -50,6 +50,7 @@
             this.progressBar1.Name = "progressBar1";
             this.progressBar1.Size = new System.Drawing.Size(342, 23);
             this.progressBar1.TabIndex = 2;
+            this.progressBar1.Click += new System.EventHandler(this.progressBar1_Click);
             // 
             // label1
             // 

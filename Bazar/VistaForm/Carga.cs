@@ -1,4 +1,5 @@
-﻿using System;
+﻿using FormularioParaBazar;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -31,7 +32,7 @@ namespace VistaForm
             {
                 timer1.Stop();
                 this.Hide();
-                Loguin frmloguin = new Loguin(); 
+                PanPrincipal frmloguin = new PanPrincipal(); 
                 frmloguin.ShowDialog();
             }
         }
@@ -42,6 +43,11 @@ namespace VistaForm
         }
 
         private void Carga_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void progressBar1_Click(object sender, EventArgs e)
         {
 
         }

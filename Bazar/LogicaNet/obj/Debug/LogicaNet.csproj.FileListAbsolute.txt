@@ -16,3 +16,21 @@ C:\Users\Mateo\Desktop\Programacion\Copia codigo Bazar\Bazar\LogicaNet\obj\Debug
 C:\Users\Mateo\Desktop\Programacion\Copia codigo Bazar\Bazar\LogicaNet\obj\Debug\LogicaNet.csproj.CopyComplete
 C:\Users\Mateo\Desktop\Programacion\Copia codigo Bazar\Bazar\LogicaNet\obj\Debug\LogicaNet.dll
 C:\Users\Mateo\Desktop\Programacion\Copia codigo Bazar\Bazar\LogicaNet\obj\Debug\LogicaNet.pdb
+C:\Users\mateo\OneDrive\Documentos\tp-mateogiordano-bazar\Elbazar\Bazar\LogicaNet\bin\Debug\LogicaNet.dll
+C:\Users\mateo\OneDrive\Documentos\tp-mateogiordano-bazar\Elbazar\Bazar\LogicaNet\bin\Debug\LogicaNet.pdb
+C:\Users\mateo\OneDrive\Documentos\tp-mateogiordano-bazar\Elbazar\Bazar\LogicaNet\bin\Debug\Newtonsoft.Json.dll
+C:\Users\mateo\OneDrive\Documentos\tp-mateogiordano-bazar\Elbazar\Bazar\LogicaNet\bin\Debug\Newtonsoft.Json.xml
+C:\Users\mateo\OneDrive\Documentos\tp-mateogiordano-bazar\Elbazar\Bazar\LogicaNet\obj\Debug\LogicaNet.csproj.AssemblyReference.cache
+C:\Users\mateo\OneDrive\Documentos\tp-mateogiordano-bazar\Elbazar\Bazar\LogicaNet\obj\Debug\LogicaNet.csproj.CoreCompileInputs.cache
+C:\Users\mateo\OneDrive\Documentos\tp-mateogiordano-bazar\Elbazar\Bazar\LogicaNet\obj\Debug\LogicaNet.csproj.CopyComplete
+C:\Users\mateo\OneDrive\Documentos\tp-mateogiordano-bazar\Elbazar\Bazar\LogicaNet\obj\Debug\LogicaNet.dll
+C:\Users\mateo\OneDrive\Documentos\tp-mateogiordano-bazar\Elbazar\Bazar\LogicaNet\obj\Debug\LogicaNet.pdb
+C:\Users\Mateo\Documents\tp-mateogiordano-bazar\ElBazar\Bazar\LogicaNet\bin\Debug\LogicaNet.dll
+C:\Users\Mateo\Documents\tp-mateogiordano-bazar\ElBazar\Bazar\LogicaNet\bin\Debug\LogicaNet.pdb
+C:\Users\Mateo\Documents\tp-mateogiordano-bazar\ElBazar\Bazar\LogicaNet\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Mateo\Documents\tp-mateogiordano-bazar\ElBazar\Bazar\LogicaNet\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Mateo\Documents\tp-mateogiordano-bazar\ElBazar\Bazar\LogicaNet\obj\Debug\LogicaNet.csproj.AssemblyReference.cache
+C:\Users\Mateo\Documents\tp-mateogiordano-bazar\ElBazar\Bazar\LogicaNet\obj\Debug\LogicaNet.csproj.CoreCompileInputs.cache
+C:\Users\Mateo\Documents\tp-mateogiordano-bazar\ElBazar\Bazar\LogicaNet\obj\Debug\LogicaNet.csproj.CopyComplete
+C:\Users\Mateo\Documents\tp-mateogiordano-bazar\ElBazar\Bazar\LogicaNet\obj\Debug\LogicaNet.dll
+C:\Users\Mateo\Documents\tp-mateogiordano-bazar\ElBazar\Bazar\LogicaNet\obj\Debug\LogicaNet.pdb

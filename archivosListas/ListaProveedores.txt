@@ -1,1 +1,1 @@
-[]
+[{"idProveedor":1,"idPersona":0,"dni":1231231,"cuil":"12312312","nombre":"Fantino","direccion":"San Juan ","email":"MsrFifa@gmail.com","apellido":"Costamagna"},{"idProveedor":2,"idPersona":0,"dni":123123,"cuil":"1231231","nombre":"Valentino","direccion":"Mitri","email":"Musa123@gmail.com","apellido":"Musaschi"},{"idProveedor":3,"idPersona":0,"dni":123123,"cuil":"123123","nombre":"Gabriel","direccion":"Belgrano","email":"BocaElMasGrande@gmail.com","apellido":"Mansilla"}]

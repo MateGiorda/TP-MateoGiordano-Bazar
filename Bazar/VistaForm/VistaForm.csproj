@@ -58,6 +58,30 @@
     <Compile Include="Carga.Designer.cs">
       <DependentUpon>Carga.cs</DependentUpon>
     </Compile>
+    <Compile Include="PanAltaClientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PanAltaClientes.Designer.cs">
+      <DependentUpon>PanAltaClientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PanAltaEmpleados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PanAltaEmpleados.Designer.cs">
+      <DependentUpon>PanAltaEmpleados.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PanAltaProductos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PanAltaProductos.Designer.cs">
+      <DependentUpon>PanAltaProductos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PanAltaProveedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PanAltaProveedor.Designer.cs">
+      <DependentUpon>PanAltaProveedor.cs</DependentUpon>
+    </Compile>
     <Compile Include="PanCliente.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -75,6 +99,30 @@
     </Compile>
     <Compile Include="Loguin.Designer.cs">
       <DependentUpon>Loguin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PanModificarCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PanModificarCliente.Designer.cs">
+      <DependentUpon>PanModificarCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PanModificarEmpleado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PanModificarEmpleado.Designer.cs">
+      <DependentUpon>PanModificarEmpleado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PanModificarProducto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PanModificarProducto.Designer.cs">
+      <DependentUpon>PanModificarProducto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PanModificarProveedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PanModificarProveedor.Designer.cs">
+      <DependentUpon>PanModificarProveedor.cs</DependentUpon>
     </Compile>
     <Compile Include="PanPrincipal.cs">
       <SubType>Form</SubType>
@@ -99,6 +147,18 @@
     <EmbeddedResource Include="Carga.resx">
       <DependentUpon>Carga.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="PanAltaClientes.resx">
+      <DependentUpon>PanAltaClientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PanAltaEmpleados.resx">
+      <DependentUpon>PanAltaEmpleados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PanAltaProductos.resx">
+      <DependentUpon>PanAltaProductos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PanAltaProveedor.resx">
+      <DependentUpon>PanAltaProveedor.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="PanCliente.resx">
       <DependentUpon>PanCliente.cs</DependentUpon>
     </EmbeddedResource>
@@ -107,6 +167,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Loguin.resx">
       <DependentUpon>Loguin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PanModificarCliente.resx">
+      <DependentUpon>PanModificarCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PanModificarEmpleado.resx">
+      <DependentUpon>PanModificarEmpleado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PanModificarProducto.resx">
+      <DependentUpon>PanModificarProducto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PanModificarProveedor.resx">
+      <DependentUpon>PanModificarProveedor.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PanPrincipal.resx">
       <DependentUpon>PanPrincipal.cs</DependentUpon>

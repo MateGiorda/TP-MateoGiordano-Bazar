@@ -77,41 +77,26 @@ namespace VistaForm
 
          private void txtuser_TextChanged(object sender, EventArgs e)
         {
-            // deberiamos ir a la lista de usuario y rescatar el que tiene el mismo nombre del texto
-            //validan la contraseña
-
-            /*if (txtuser.Text.Length > 0)
-            {
-                MessageBox.Show("Hola, está por ingrsar al sistema: " + txtuser.Text);
-            }
-            else
-            {
-                MessageBox.Show("Ingrese nombre");
-            }
-            */
+            
         }
 
          private bool validarUsuario(string nombre, string clave)
         {
-            // me voy a la base de usuarios a revisar par aese nombre y para esa clave
-            // por ahora, lo hago a mano
-
             return (nombre == "Mateo") && (clave == "cacho");
             }
         
 
+        //Boton para acceder al sistema
         private void btnlogin_Click(object sender, EventArgs e)
         {
             if (txtuser.Text.Length > 0)
             {
-                // deberían ir a la lista de usuarios, y rescatar el que tiene el mismo del TExt
-                // validan el password.
 
                 if (validarUsuario(txtuser.Text.Trim(), txtpass.Text.Trim()))
                 {
                     this.Hide();
-                    PanPrincipal frmloguin = new PanPrincipal();
-                    frmloguin.ShowDialog();
+                    Carga frmcarga = new Carga();
+                    frmcarga.ShowDialog();
                 }
                 else
                 {
@@ -127,18 +112,14 @@ namespace VistaForm
 
         private void Loguin_FormClosing(object sender, FormClosingEventArgs e)
         {
-            //Application.Exit();
+
         }
 
         private void PantallaPrincipal_Load(object sender, EventArgs e)
         {
-            PersistenciaDato instanciaPersistencia = new PersistenciaDato();
-            instanciaPersistencia.InicializarArchivo();
-            Principal instanciaPrincipal = new Principal();
-            instanciaPrincipal.RellenarLista();
+            
         }
 
-        //Se puede agregar la funcion de arrastrar con en el mouse la pantalla (ver video)
     }
 }
 

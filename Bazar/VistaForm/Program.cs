@@ -16,7 +16,7 @@ namespace VistaForm
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Carga());
+            Application.Run(new Loguin());
         }
     }
 }
